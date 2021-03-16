@@ -19,15 +19,15 @@ https://github.com/dicarlolab/CORnet
 \data folder contains all the required data (or links to datasets -- if size is too large).
 To check how to access see data_demo.m
 
-## behavior_utils
+## Analysis of Behavior
 
 \behav_utils folder contains all code necessary to generate Figures related to the behavioral data analyses
 
-## amygdala_utils
+## Analysis of Amygdala Recordings
 
 \amyg_utils folder contains all code necessary to generate Figures related to the human amygdala recording data analyses
 
-## ann_utils
+## Analysis of ANN features and in silico experiments
 
 \ann_utils folder contains all code necessary to generate Figures related to the ANN related data analyses
 
