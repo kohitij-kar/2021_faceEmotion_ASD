@@ -16,7 +16,7 @@ https://github.com/dicarlolab/CORnet
 # Components
 
 ## Data 
-\data folder contains all data
+\data folder contains all the required data (or links to datasets -- if size is too large).
 To check how to access see data_demo.m
 
 ## behavior_utils
