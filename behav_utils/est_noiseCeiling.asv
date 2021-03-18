@@ -21,7 +21,7 @@ for i = 1:nrBS
     ll = del(:,i)>=diff_val;
     num(i)= sum(ll);
     
-    if(num(i)>5)
+    if(num(i)>6)
     
         raw_corr(i) = corr(nanmean(ctrl(ll,l2),2),nanmean(asd(ll,l2),2), 'type', corr_type);
         con_ctrl = nan(50,1);
