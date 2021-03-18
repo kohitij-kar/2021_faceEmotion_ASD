@@ -13,7 +13,7 @@ intcon = nan(442,100);
 for i = 1:442
     for j = 1:100
         intcon(i,j) = spearmanBrownCorrection_splithalf(corr(nanmean(r_sh1(image_ind,i,j),3),...
-            nanmean(r_sh2(image_ind,i,j),3),'type','Pearson'));
+            nanmean(r_sh2(image_ind,i,j),3),'type','Kendall'));
         
     end
 end
